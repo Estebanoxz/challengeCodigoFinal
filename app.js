@@ -57,7 +57,7 @@ function agregarAmigo() {
 
     console.log(jugadoresAgregados);
 
-    if (jugadoresAgregados.length > 2) {
+    if (jugadoresAgregados.length > 3) {
         document.getElementById('quienJuega').disabled = false;
     }
 }
